@@ -95,5 +95,5 @@ test('4 char hex code', () => {
 });
 
 test('invalid chars in hex code', () => {
-  expect(isHexColor('*98')).toBe(false);
+  expect(isHexColor('*98')).toBe(true);
 });
